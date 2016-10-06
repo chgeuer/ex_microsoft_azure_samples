@@ -1,0 +1,2 @@
+defmodule ExMicrosoftAzureSamples do
+end
