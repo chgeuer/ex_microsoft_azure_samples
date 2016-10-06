@@ -1,5 +1,4 @@
-defmodule ExMicrosoftAzureSamples do
-
+defmodule ExMicrosoftAzure.Samples do
 
   def get_access_token_de do
     {:ok, pid} = ExMicrosoftAzure.ActiveDirectory.start_link

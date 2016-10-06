@@ -14,7 +14,7 @@ defmodule ExMicrosoftAzureSamples.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :oauth2]]
   end
 
   # Dependencies can be Hex packages:
@@ -28,7 +28,7 @@ defmodule ExMicrosoftAzureSamples.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-     {:exazure, git: "https://github.com/chgeuer/ex_microsoft_azure.git"}
+     {:ex_microsoft_azure, git: "https://github.com/chgeuer/ex_microsoft_azure.git"}
     ]
   end
 end
